@@ -56,9 +56,9 @@ input {
 
 
 .alinhamento {
-    width: 1918px;
+    width: 1900px;
     height: 750px;
-    background: linear-gradient(to right, #eca522, #ffdb95);
+    background: linear-gradient(to right, #2273ec, #92afff);
     border: solid black 1px;
     display: flex;
 }
@@ -69,7 +69,7 @@ input {
     margin-bottom :20px; 
     width: 10px;
     height: 30px;
-    background: linear-gradient(to right, #eca522, #ffdb95);
+    background: linear-gradient(to right, #2273ec, #92afff);
     border-radius: 5px;
 }
 
@@ -147,4 +147,28 @@ h1{
         
     }
 }
+}
+footer{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    width: 1900px;
+    background-color: darkblue;
+    justify-content: space-between;
+    button{
+        color: white;
+        width: 100px;
+        height: 50px;
+        background-color: #406ff0;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+.paises{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom:50px;
+    font-size: larger;
 }

@@ -124,42 +124,6 @@ readMoreButtons.forEach((button) => {
   });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const toggleButton = document.getElementById('theme-toggle');
-  const main = document.querySelector('main'); 
-  const footer =document.querySelector('footer');
-  const body = document.querySelector('body');
-  var i =document.querySelector('i');
- 
-  // Corrigido para pegar o elemento <main>
-
-  // Verifica o tema no localStorage e aplica a classe apropriada
-  if (localStorage.getItem('theme') === 'light') {
-    main.classList.add('light-theme');
-    footer.classList.add('light-theme');
-    i.classList.add('light-theme');
-  
-  } else {
-      main.classList.add('dark-theme');
-      footer.classList.add('dark-theme');
-      i.classList.add('dark-theme');
-      body.classList.add('preto');
-  }
-
-  // Alterna o tema ao clicar no botão
-  toggleButton.addEventListener('click', () => {
-      if (main.classList.contains('light-theme')) {
-          main.classList.replace('light-theme', 'dark-theme');
-          footer.classList.replace('light-theme', 'dark-theme');
-          i.classList.replace('light-theme', 'dark-theme');
-          body.classList.add('preto');
-          localStorage.setItem('theme', 'dark');  // Salva o tema no localStorage
-      } else {
-          main.classList.replace('dark-theme', 'light-theme');
-          footer.classList.replace('dark-theme','light-theme');
-          i.classList.replace('dark-theme','light-theme');
-          body.classList.remove('preto');
-          localStorage.setItem('theme', 'light');  // Salva o tema no localStorage
-      }
-  });
-});
+function changeTheme() {
+  document.body.classList.toggle('dark');
+}
