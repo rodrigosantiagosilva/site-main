@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.Pesq {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    height: 50px;
+    width: 75%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.342);
+}
+
+.lupa {
+    height: 30px;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input {
+    display: flex;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: end;
+    height: 100%;
+}
+
+.menui {
+    height: 75px;
+    border-left: 4px solid rgb(255, 255, 255);
+}
+
+
+.alinhamento {
+    width: 1918px;
+    height: 750px;
+    background: linear-gradient(to right, #eca522, #ffdb95);
+    border: solid black 1px;
+    display: flex;
+}
+
+.traco{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom :20px; 
+    width: 10px;
+    height: 30px;
+    background: linear-gradient(to right, #eca522, #ffdb95);
+    border-radius: 5px;
+}
+
+.titul{
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-family: 'Jura';
+}
+
+.redirecionamento{
+    display: flex;
+}
+.imagem{
+    width:550px;
+    height: 650px;
+    background-color: #d9d9d9;
+    border: 1px solid black ;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 450px;
+        height: 250px;
+        border: solid black;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .origem{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        li{
+            list-style: none;
+            font-size:x-large;
+            margin-left: 5px;
+            padding: 1px;
+        }
+    }
+    .text{
+        font-size: x-large;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 2px;
+    }
+}
+
+.conteudo{
+    margin-left:5%;
+    margin-top: 90px;
+display: flex;
+flex-direction: column;
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 500%;
+
+}
+.txt{
+    margin-top: 70px;
+    width: 900px;
+    height: 430px;
+    display: flex;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    p{
+        margin-top: 10px;
+        font-size: x-large;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 2px;
+        
+    }
+}
+}
